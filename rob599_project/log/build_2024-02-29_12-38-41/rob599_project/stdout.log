@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rob599_project.egg-info
+writing rob599_project.egg-info/PKG-INFO
+writing dependency_links to rob599_project.egg-info/dependency_links.txt
+writing entry points to rob599_project.egg-info/entry_points.txt
+writing requirements to rob599_project.egg-info/requires.txt
+writing top-level names to rob599_project.egg-info/top_level.txt
+writing manifest file 'rob599_project.egg-info/SOURCES.txt'
+reading manifest file 'rob599_project.egg-info/SOURCES.txt'
+writing manifest file 'rob599_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/python3.10/site-packages/rob599-project.egg-link (link to .)
+Installing sesnor_data = rob599_project.sesnor_data:mainservo_control = rob599_project.servo_control:mainclassify script to /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/rob599_project
+
+Installed /home/drurytc/colcon_ws/src/rob599_project/build/rob599_project
+running install_data
+creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index
+creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index
+creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index/packages
+copying resource/rob599_project -> /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index/packages
+copying package.xml -> /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/rob599_project

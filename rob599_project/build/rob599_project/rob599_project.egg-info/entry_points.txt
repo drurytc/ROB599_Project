@@ -1,0 +1,3 @@
+[console_scripts]
+sesnor_data = rob599_project.sesnor_data:mainservo_control = rob599_project.servo_control:mainclassify = rob599_project.classify:main
+

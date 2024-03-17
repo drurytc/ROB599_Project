@@ -1,0 +1,28 @@
+[0.964s] Invoking command in '/home/drurytc/colcon_ws/src/rob599_project/build/rob599_project': PYTHONPATH=/home/drurytc/colcon_ws/src/rob599_project/build/rob599_project/prefix_override:/home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/drurytc/colcon_ws/src/rob599_project/build/rob599_project/build --no-deps install_data
+[1.300s] running develop
+[1.301s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.301s]   warnings.warn(
+[1.303s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.303s]   warnings.warn(
+[1.488s] running egg_info
+[1.488s] creating rob599_project.egg-info
+[1.488s] writing rob599_project.egg-info/PKG-INFO
+[1.488s] writing dependency_links to rob599_project.egg-info/dependency_links.txt
+[1.489s] writing entry points to rob599_project.egg-info/entry_points.txt
+[1.489s] writing requirements to rob599_project.egg-info/requires.txt
+[1.489s] writing top-level names to rob599_project.egg-info/top_level.txt
+[1.490s] writing manifest file 'rob599_project.egg-info/SOURCES.txt'
+[1.492s] reading manifest file 'rob599_project.egg-info/SOURCES.txt'
+[1.494s] writing manifest file 'rob599_project.egg-info/SOURCES.txt'
+[1.496s] running build_ext
+[1.497s] Creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/python3.10/site-packages/rob599-project.egg-link (link to .)
+[1.498s] Installing sesnor_data = rob599_project.sesnor_data:mainservo_control = rob599_project.servo_control:mainclassify script to /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/rob599_project
+[1.499s] 
+[1.499s] Installed /home/drurytc/colcon_ws/src/rob599_project/build/rob599_project
+[1.499s] running install_data
+[1.499s] creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index
+[1.499s] creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index
+[1.499s] creating /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index/packages
+[1.499s] copying resource/rob599_project -> /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/ament_index/resource_index/packages
+[1.499s] copying package.xml -> /home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/share/rob599_project
+[1.564s] Invoked command in '/home/drurytc/colcon_ws/src/rob599_project/build/rob599_project' returned '0': PYTHONPATH=/home/drurytc/colcon_ws/src/rob599_project/build/rob599_project/prefix_override:/home/drurytc/colcon_ws/src/rob599_project/install/rob599_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/drurytc/colcon_ws/src/rob599_project/build/rob599_project/build --no-deps install_data
