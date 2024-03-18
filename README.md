@@ -1,6 +1,6 @@
 # ROS-Enabled Recycling Bin Sorting System
 
-[![Video Thumbnail](https://github.com/drurytc/ROB599_Project/blob/master/Video_thumbnail.png)](https://youtu.be/Z1QdZv_cf8U)
+[![Video Thumbnail](https://github.com/drurytc/ROB599_Project/raw/master/Video_thumbnail.png)](https://youtu.be/Z1QdZv_cf8U)
 
 ## Overview
 This ROS-Enabled Recycling Bin Sorting System project aims to integrate ROS (Robot Operating System). In this project, the goal is to develop a system capable of sorting recyclable materials using sensors, image processing, and robotic control. This project will focus on behavior and simulated data.
