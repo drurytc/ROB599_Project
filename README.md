@@ -33,3 +33,43 @@ The ROS-Enabled Recycling Bin Sorting System offers an exciting opportunity to o
 
 # Setup & Structure
 
+## Cloning into ROS Environment and Creating ROS Package
+
+To clone the project into your ROS environment and set up a ROS package, follow these steps:
+
+1. Navigate to your desired directory where you want to clone the project.
+
+2. Open a terminal window and run the following command to clone the project repository:
+   ```
+   git clone <repository_URL>
+   ```
+   Replace `<repository_URL>` with the URL of the GitHub repository.
+
+3. Once the repository is cloned, navigate into the project directory:
+   ```
+   cd <project_directory>
+   ```
+   Replace `<project_directory>` with the name of the directory where the project was cloned.
+
+4. Next, create a ROS package within the project directory. Assuming you have ROS installed and set up properly on your system, run the following command:
+   ```
+   catkin_create_pkg <package_name> rospy roscpp
+   ```
+   Replace `<package_name>` with the desired name for your ROS package. You can add additional dependencies as needed.
+
+5. After creating the ROS package, move all relevant files and directories from the cloned project into the newly created package directory.
+
+6. Ensure that the package dependencies are properly set in the `package.xml` file within your ROS package directory.
+
+7. Build your ROS workspace to compile the package:
+   ```
+   catkin_make
+   ```
+
+8. Source the newly created workspace to make the ROS package available in your environment:
+   ```
+   source devel/setup.bash
+   ```
+
+Now, your ROS package should be set up and ready to use within your ROS environment.
+```
