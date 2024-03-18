@@ -33,6 +33,38 @@ The ROS-Enabled Recycling Bin Sorting System offers an exciting opportunity to o
 
 # Setup & Structure
 
+## Package Structure
+
+The ROS-Enabled Recycling Bin Sorting System project follows a typical ROS package structure. Below is an overview of the package structure:
+
+```
+ROB599_Project/
+│
+├── scripts/                      # Contains ROS node scripts
+│   ├── sensor_data_acquisition.py
+│   ├── image_processing.py
+│   └── servo_control.py
+│
+├── launch/                       # Contains launch files for running nodes
+│   ├── sensor_data.launch
+│   ├── image_processing.launch
+│   └── servo_control.launch
+│
+├── config/                       # Configuration files (if any)
+│   └── sensor_config.yaml
+│
+├── msg/                          # Custom message definitions (if any)
+│   └── ...
+│
+├── srv/                          # Service definitions (if any)
+│   └── ...
+│
+├── CMakeLists.txt                # CMake build script
+├── package.xml                   # Package manifest
+├── README.md                     # Project README
+└── .gitignore                    # Git ignore file
+```
+
 ## Cloning into ROS Environment and Creating ROS Package
 
 To clone the project into your ROS environment and set up a ROS package, follow these steps:
@@ -41,35 +73,24 @@ To clone the project into your ROS environment and set up a ROS package, follow 
 
 2. Open a terminal window and run the following command to clone the project repository:
    ```
-   git clone <repository_URL>
+   git clone https://github.com/drurytc/ROB599_Project.git
    ```
-   Replace `<repository_URL>` with the URL of the GitHub repository.
 
 3. Once the repository is cloned, navigate into the project directory:
    ```
-   cd <project_directory>
-   ```
-   Replace `<project_directory>` with the name of the directory where the project was cloned.
-
-4. Next, create a ROS package within the project directory. Assuming you have ROS installed and set up properly on your system, run the following command:
-   ```
-   catkin_create_pkg <package_name> rospy roscpp
-   ```
-   Replace `<package_name>` with the desired name for your ROS package. You can add additional dependencies as needed.
-
-5. After creating the ROS package, move all relevant files and directories from the cloned project into the newly created package directory.
-
-6. Ensure that the package dependencies are properly set in the `package.xml` file within your ROS package directory.
-
-7. Build your ROS workspace to compile the package:
-   ```
-   catkin_make
+   cd rob599_project
    ```
 
-8. Source the newly created workspace to make the ROS package available in your environment:
+4. Ensure that the package dependencies are properly set in the `package.xml` file within your ROS package directory.
+
+5. Build your ROS workspace to compile the package:
    ```
-   source devel/setup.bash
+   colcon build --symlink-install
+   ```
+
+6. Source the newly created workspace to make the ROS package available in your environment:
+   ```
+   source install/setup.bash
    ```
 
 Now, your ROS package should be set up and ready to use within your ROS environment.
-```
