@@ -25,9 +25,9 @@ This project involves rewriting existing Python scripts from a senior capstone p
 The ROS-Enabled Recycling Bin Sorting System offers an exciting opportunity to optimize recycling processes through ROS integration. By enhancing functionality and scalability, we aim to create a more efficient and sustainable solution for waste management. Should this proposal not align with project requirements, exploring alternative options to further develop ROS skills remains viable.
 
 ## Accomplishments
-- **Development of ROS Nodes:** Initial ROS nodes have been developed for sensor data acquisition, image processing, and servo control.
+- **Development of ROS Nodes:** Initial ROS nodes have been developed for sensor data, classifying, and servo control.
 - **ROS Environment Setup:** A ROS package has been created, and nodes have been set up within the environment.
-- **Sensor Data & Image Processing Progress:** Frameworks for sensor data acquisition and image processing have been established, with ongoing work to integrate functionalities.
+- **Sensor Data & Image Processing Progress:** Framework for all sensor data and decisions of image processing have been established. All correct data and behavior has been implemented and is ready to be testted in a physical prototype.
 
 ---
 
