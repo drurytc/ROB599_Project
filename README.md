@@ -33,7 +33,7 @@ The ROS-Enabled Recycling Bin Sorting System offers an exciting opportunity to o
 
 # Setup & Structure
 
-## Package Structure overview
+## Package Structure Overview
 
 ```
 rob599_project/
@@ -57,7 +57,7 @@ rob599_project/
 │   └── servo_control.py
 │
 ├── launch/                       # Contains launch files for running nodes
-│   └── sensor_data.launch
+│   └── classify_launch.py
 │
 ├── test/                         
 │   └── ...
@@ -78,21 +78,22 @@ To clone the project into your ROS environment and set up a ROS package, follow 
    git clone https://github.com/drurytc/ROB599_Project.git
    ```
 
-3. Once the repository is cloned, navigate into the project directory:
-   ```
-   cd rob599_project
-   ```
-
-4. Ensure that the package dependencies are properly set in the `package.xml` file within your ROS package directory.
-
-5. Build your ROS workspace to compile the package:
+3. Build your ROS workspace to compile the package:
    ```
    colcon build --symlink-install
    ```
 
-6. Source the newly created workspace to make the ROS package available in your environment:
+4. Source the newly created workspace to make the ROS package available in your environment:
    ```
    source install/setup.bash
    ```
+5. Once the repository is cloned, navigate into the project directory:
+   ```
+   cd rob599_project
+   ```
+6. Ensure that the package dependencies are properly set in the `package.xml` file within your ROS package directory.
 
-Now, your ROS package should be set up and ready to use within your ROS environment.
+7. Now, your ROS package should be set up and ready to use within your ROS environment. You should be able to launch all three nodes by calling the launch file.
+   ```
+   ros2 launch rob599_project classify_launch.py
+   ```
