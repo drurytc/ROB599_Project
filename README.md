@@ -4,7 +4,7 @@
 This ROS-Enabled Recycling Bin Sorting System project aims to integrate ROS (Robot Operating System). In this project, the goal is to develop a system capable of sorting recyclable materials using sensors, image processing, and robotic control. This project will focus on behavior and simulated data.
 
 ## Description
-This project involves rewriting existing Python scripts from a senior capstone project into ROS nodes. These nodes will define the behavior of of a recycling bin sorting system, facilitating  communication between sensors, image processing algorithms, and servos. Leveraging ROS ensures scalability and interoperability for future enhancements and integration with other ROS packages.
+This project involves rewriting existing Python scripts from a [senior capstone project](https://github.com/drurytc/SmartBin_Prototype.git) into ROS nodes. These nodes will define the behavior of of a recycling bin sorting system, facilitating  communication between sensors, image processing algorithms, and servos. Leveraging ROS ensures scalability and interoperability for future enhancements and integration with other ROS packages.
 
 ## Functionality
 - **Sensor Data Acquisition:** ROS nodes will interface with sensors such as cameras, motion sensors, and break beam sensors to acquire raw data from the recycling bin.
