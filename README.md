@@ -33,36 +33,38 @@ The ROS-Enabled Recycling Bin Sorting System offers an exciting opportunity to o
 
 # Setup & Structure
 
-## Package Structure
-
-The ROS-Enabled Recycling Bin Sorting System project follows a typical ROS package structure. Below is an overview of the package structure:
+## Package Structure overview
 
 ```
-ROB599_Project/
+rob599_project/
 │
-├── scripts/                      # Contains ROS node scripts
-│   ├── sensor_data_acquisition.py
-│   ├── image_processing.py
+├── build/                        # Contains build artifacts (generated during compilation)
+│   └── ...
+│
+├── install/                      # Contains installed files (generated after compilation)
+│   └── ...
+│
+├── log/                         
+│   └── ...
+│
+├── resource/
+│   ├── test.jpg            # Contains test image file
+│   └── ...                     
+│
+├── src/                      # Contains ROS node scripts
+│   ├── sensor_data.py
+│   ├── classify.py
 │   └── servo_control.py
 │
 ├── launch/                       # Contains launch files for running nodes
-│   ├── sensor_data.launch
-│   ├── image_processing.launch
-│   └── servo_control.launch
+│   └── sensor_data.launch
 │
-├── config/                       # Configuration files (if any)
-│   └── sensor_config.yaml
-│
-├── msg/                          # Custom message definitions (if any)
+├── test/                         
 │   └── ...
 │
-├── srv/                          # Service definitions (if any)
-│   └── ...
-│
-├── CMakeLists.txt                # CMake build script
 ├── package.xml                   # Package manifest
-├── README.md                     # Project README
-└── .gitignore                    # Git ignore file
+├── setup.cfg                     # Setup configuration file
+└── setup.py                      # Setup script
 ```
 
 ## Cloning into ROS Environment and Creating ROS Package
